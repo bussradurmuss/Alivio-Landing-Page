@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Georgia", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}
+.header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container nav .menu {
+  display: flex;
+  align-items: center;
+}
+.header .container nav .menu-item {
+  padding: 0 2rem;
+}
+.header .container nav .right-side {
+  display: flex;
+  align-items: center;
+}
+.header .container .btn-primary {
+  background-color: #01996d;
+  padding: 0.75rem 3.125rem;
+  color: #fff;
+  border-radius: 4px;
+}
+.header .container .sign-in {
+  margin-right: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
