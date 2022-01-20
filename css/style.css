@@ -39,9 +39,16 @@ ul li {
   margin: 0 auto;
 }
 
+.btn-primary {
+  background-color: #01996d;
+  padding: 0.75rem 3.125rem;
+  color: #fff;
+  border-radius: 4px;
+}
+
 .header {
   padding: 1rem 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .header .container nav {
   display: flex;
@@ -59,14 +66,32 @@ ul li {
   display: flex;
   align-items: center;
 }
-.header .container .btn-primary {
-  background-color: #01996d;
-  padding: 0.75rem 3.125rem;
-  color: #fff;
-  border-radius: 4px;
-}
 .header .container .sign-in {
   margin-right: 2rem;
+}
+
+.hero {
+  background: url("/assets/images/hero-image.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+}
+.hero .container {
+  width: 100%;
+}
+.hero .container .hero-content {
+  width: 33%;
+}
+.hero .container .hero-content .hero-title {
+  font-size: 4rem;
+  color: #01996d;
+}
+.hero .container .hero-content .hero-description {
+  font-size: 1rem;
+  margin: 1.875rem 0;
+  color: #484848;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

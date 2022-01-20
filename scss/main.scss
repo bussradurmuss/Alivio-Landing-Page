@@ -1,6 +1,8 @@
 // Make sure you have Sass installed glabaly
 // Run ==> sass --watch scss/main.scss css/style.css
 // Import base
-@import "./base/global","./base/variables";
+@import "./base/variables",
+"./base/global";
 // Import Layout
-@import "./layout/Header", "./layout/Hero";
+@import "./layout/Header",
+"./layout/Hero";

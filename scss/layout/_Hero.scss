@@ -1,0 +1,23 @@
+.hero {
+    background: url("/assets/images/hero-image.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    .container {
+        width: 100%;
+        .hero-content {
+            width: 33%;
+            .hero-title {
+                font-size: 4rem;
+                color: $color-primary;
+            }
+            .hero-description {
+                font-size: 1rem;
+                margin: 1.875rem 0;
+                color: $text-color;
+                line-height: 24px;
+            }
+        }
+    }
+}
