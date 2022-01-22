@@ -1,0 +1,16 @@
+.footer {
+    background-color: $section-bg;
+    color: $white;
+    height: 450px;
+    .container {
+        display: flex;
+        justify-content: start;
+        padding-top: 90px;
+        padding-left: 200px;
+        .item {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}

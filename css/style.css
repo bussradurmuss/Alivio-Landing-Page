@@ -94,4 +94,144 @@ ul li {
   line-height: 24px;
 }
 
+.how-it-works .top-side {
+  margin-top: 8rem;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how-it-works .top-side .left-side {
+  width: -webkit-fill-available;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+.how-it-works .top-side .left-side span {
+  font-size: 0.875rem;
+}
+.how-it-works .top-side .title {
+  color: #01996d;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+.how-it-works .bottom-side {
+  display: flex;
+  justify-content: center;
+}
+.how-it-works .bottom-side .content {
+  width: 33%;
+}
+.how-it-works .bottom-side .content .content-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+.how-it-works .bottom-side .content .content-title .number {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  z-index: -1;
+  font-size: 70px;
+  color: rgba(1, 153, 109, 0.2);
+}
+.how-it-works .bottom-side .content .content-title .third {
+  bottom: -25px;
+}
+.how-it-works .bottom-side .content .content-title .name {
+  margin-left: 40px;
+}
+.how-it-works .bottom-side .content .content-title .alivio {
+  margin-left: 50px;
+}
+.how-it-works .bottom-side .content img {
+  width: 300px;
+  height: 400px;
+  margin-top: 60px;
+}
+.how-it-works .bottom-side .center {
+  margin: 200px 90px 0 90px;
+}
+
+.lets {
+  background-color: #245852;
+  margin-top: 50px;
+}
+.lets .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.lets .container .left-side {
+  color: #fff;
+}
+.lets .container .left-side .title {
+  line-height: 50px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.lets .container .left-side .description {
+  margin-bottom: 50px;
+}
+.lets .container .right-side img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  opacity: 90%;
+}
+
+.our-product {
+  padding: 180px;
+}
+.our-product .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-product .container .left-side .image {
+  position: relative;
+}
+.our-product .container .left-side .image .person-img {
+  width: 500px;
+  height: 450px;
+  z-index: -1;
+}
+.our-product .container .left-side .image .card-img {
+  width: 290px;
+  position: absolute;
+  top: 250px;
+  left: -130px;
+}
+.our-product .container .right-side {
+  margin-left: 80px;
+}
+.our-product .container .right-side span {
+  font-size: 25px;
+}
+.our-product .container .right-side .title {
+  font-size: 50px;
+  color: #01996d;
+  line-height: 78px;
+}
+.our-product .container .right-side .description {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background-color: #245852;
+  color: #fff;
+  height: 450px;
+}
+.footer .container {
+  display: flex;
+  justify-content: start;
+  padding-top: 90px;
+  padding-left: 200px;
+}
+.footer .container .item {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
