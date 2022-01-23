@@ -11,15 +11,25 @@
                 align-items: center;
                 &-item {
                     padding: 0 2rem;
+                    &:hover {
+                        color: $color-primary;
+                    }
                 }
             }
             .right-side {
                 display: flex;
                 align-items: center;
+                .sign-in {
+                    margin-right: 2rem;
+                    cursor: pointer;
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
             }
         }
-        .sign-in {
-            margin-right: 2rem;
+        .hamburger {
+            display: none;
         }
     }
 }

@@ -1,0 +1,118 @@
+@media (max-width: 960px) {
+    .container {
+        padding: 0 20px;
+    }
+    //HEADER SECTİON
+    .header {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            nav {
+                .menu {
+                    display: none;
+                }
+                .right-side {
+                    display: none;
+                }
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+    }
+    //HERO SECTİON
+    .hero {
+        text-align: center;
+        .container {
+            .hero-content {
+                width: 100%;
+            }
+        }
+    }
+    //HOW IT WORKS SECTİON
+    .how-it-works {
+        .container {
+            .top-side {
+                flex-wrap: wrap;
+                text-align: center;
+                .left-side {
+                    margin-right: unset;
+                    margin-bottom: 60px;
+                }
+            }
+            .bottom-side {
+                flex-wrap: wrap;
+                .content {
+                    width: 100%;
+                    margin: 80px 0;
+                    .description {
+                        text-align: center;
+                    }
+                    .picture {
+                        text-align: center;
+                    }
+                }
+                .center {
+                    margin: unset;
+                }
+            }
+        }
+    }
+    //LETS SECTİON
+    .lets {
+        .container {
+            flex-wrap: wrap;
+            padding: 50px 30px;
+            text-align: center;
+            .left-side {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    //OUR PRODUCT SECTİON
+    .our-product {
+        padding: unset;
+        .container {
+            flex-wrap: wrap;
+            padding: 20px 0;
+            .left-side {
+                margin-top: 80px;
+                .image {
+                    .person-img {
+                        width: 300px;
+                        height: auto;
+                    }
+                    .card-img {
+                        top: 211px;
+                        left: -30px;
+                        width: 150px;
+                    }
+                }
+            }
+            .right-side {
+                margin: 90px 30px;
+                text-align: center;
+                span {
+                    font-size: 15px;
+                }
+                .title {
+                    line-height: unset;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    //FOOTER PRODUCT SECTİON
+    .footer {
+        height: 350px;
+        .container {
+            padding-left: 30px;
+            .item {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
