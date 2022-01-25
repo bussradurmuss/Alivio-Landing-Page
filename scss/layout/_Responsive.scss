@@ -11,6 +11,23 @@
             nav {
                 .menu {
                     display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 100%;
+                    top: 56px;
+                    left: 0;
+                    background-color: $white;
+                    padding: 20px 0;
+                    .menu-item {
+                        padding: 10px 0;
+                    }
+                    .close-button {
+                        display: flex;
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        cursor: pointer;
+                    }
                 }
                 .right-side {
                     display: none;
