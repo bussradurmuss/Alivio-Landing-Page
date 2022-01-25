@@ -15,6 +15,9 @@
                         color: $color-primary;
                     }
                 }
+                .close-button {
+                    display: none;
+                }
             }
             .right-side {
                 display: flex;
